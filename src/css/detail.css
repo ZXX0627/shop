@@ -1,0 +1,116 @@
+.media img {
+  width: 300px;
+  height: 300px;
+}
+
+p {
+  font-size: 60px;
+  color: red
+}
+header{
+  background-color: #333;
+}
+
+.top{
+  height: 40px;
+}
+
+.top ul{
+  float: left;
+}
+.top ul li{
+  float: left;
+  text-align: center;
+
+}
+.top ul li a{
+  text-align: center;
+  color: #b0b0b0;
+  line-height: 40px;
+  font-size: 12px;
+}
+
+.top ul li span{
+  color: #6d6666;
+  margin: 0 10px;
+  font-size: 12px;
+}
+.top ol{
+  float: right;
+}
+
+.top ol li{
+  float: left;
+  margin-left: 30px;
+}
+.top ol li a{
+  text-align: center;
+  color: #b0b0b0;
+  line-height: 40px;
+  font-size: 12px;
+}
+
+
+.nav_1{
+  background: url("../img/bg.png") no-repeat;
+  background-size:100% 100% ;
+}
+.nav_2{
+  height:110px;
+  clear: both;
+  position: relative;
+}
+
+.nav_2 .left{
+  clear: both;
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 60px;
+  height: 60px;
+  background:url(../img/favicon.ico) no-repeat center center;
+  background-size: 100% 100%;
+  float: left;
+}
+
+.nav_2 .seach{
+  margin-left: 300px;
+  float: left;
+}
+
+.nav_2>p{
+  position: absolute;
+  left: 130px;
+  top: 15px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.nav_2 .seach input:nth-of-type(1){
+  width: 500px;
+  height: 60px;
+  text-align: left;
+  padding-left: 10px;
+  border: 3px solid #f00;
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+}
+
+.nav_2 .seach input:nth-of-type(2){
+  position: absolute;
+  top: 20px;
+  left: 910px;
+  width: 100px;
+  height: 60px;
+  color: #fff;
+  font-size: 30px;
+  border: 3px solid #f00;
+  border-left: none;
+  background-color: #f00;
+  
+}
+
+
+/* .panel{
+  margin-top: 60px;
+} */

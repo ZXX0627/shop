@@ -1,0 +1,36 @@
+.jumbotron{
+    width: 1000px;
+    height: 500px;
+    /* border: 1px solid #000; */
+
+    margin:0 auto;
+    /* text-align: center; */
+}
+
+.jumbotron h1{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+     margin-bottom: 30px;
+}
+
+.form-horizontal{
+    font-size: 25px;
+    padding-left: 260px;
+}
+
+.form-horizontal input{
+    margin: 10px 0;
+    width: 400px;
+    height: 35px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.form-horizontal .btn{
+    margin-top: 20px;
+    width:400px;
+    height: 40px;
+}

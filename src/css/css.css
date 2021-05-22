@@ -1,0 +1,24 @@
+*{margin: 0;padding: 0;}
+img{
+    vertical-align:middle;
+}
+
+ul,li,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1,h2,h3,h4,h4,h6{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.center{
+    width: 1230px;
+    margin: 0 auto;
+}
+

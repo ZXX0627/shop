@@ -1,0 +1,101 @@
+body{
+    background-color: aquamarine;
+}
+
+.top .left{
+    float: left;
+    padding-top: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size:24px ;
+    font-weight: bold;
+    margin-left:  300px;
+}
+
+.top img{
+    float: left;
+}
+
+.top p{
+    margin-left: 10px;
+    float: left;
+}
+
+.top .right{
+    padding-top: 30px;
+    float: right;
+    margin-right: 40px;
+}
+
+.top .right a{
+    margin-left: 20px;
+}
+.top .right select{
+    font-size: 16px;
+    margin-left: 20px;
+    border: none;
+    background-color: aquamarine;
+}
+.jumbotron{
+    clear: both;
+    width:800px;
+    /* border: 1px solid #000; */
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.jumbotron>h1{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.username{
+    font-size: 30px;
+
+    margin-left: 200px;
+}
+.username input{
+    width:400px;
+    height: 30px;
+}
+
+
+.password{
+    margin-top:30px ;
+    font-size:30px;
+    margin-left: 200px;
+}
+
+.password input{
+    width: 400px;
+    height: 30px;
+}
+
+.password p:nth-of-type(2){
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 350px;
+
+}
+.jumbotron button{
+    margin-top: 50px;
+    width: 400px;
+    height: 40px;
+    position: relative;
+    left:200px;
+}
+
+.jumbotron h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+
